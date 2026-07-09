@@ -27,6 +27,7 @@ const BOTTOM_ICONS = {
 export default function MemberCard({
   name,
   slug,
+  photoExt = "jpg",
   lines,
   researchInterests,
   bottomItems,
@@ -35,6 +36,7 @@ export default function MemberCard({
 }: {
   name: string;
   slug: string;
+  photoExt?: string;
   lines: string[];
   researchInterests?: string[];
   bottomItems: BottomItem[];
@@ -62,7 +64,7 @@ export default function MemberCard({
         // eslint-disable-next-line @next/next/no-img-element
         <img
           ref={imgRef}
-          src={`/members/${slug}.jpg`}
+          src={`/members/${slug}.${photoExt}`}
           alt={name}
           className="absolute inset-0 h-full w-full object-cover"
           onError={() => setImgFailed(true)}

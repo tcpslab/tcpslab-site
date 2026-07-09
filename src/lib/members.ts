@@ -1,6 +1,7 @@
 export type Member = {
   name: string;
   slug: string;
+  photoExt?: string;
   role: string;
   email: string;
   researchInterests?: string[];
@@ -140,6 +141,7 @@ export const researchers: Member[] = [
   {
     name: "Ji-Hwan Park",
     slug: "ji-hwan-park",
+    photoExt: "png",
     role: "Master Course",
     email: "jihwanpark@jnu.ac.kr",
     researchInterests: [

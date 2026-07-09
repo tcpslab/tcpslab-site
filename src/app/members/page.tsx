@@ -62,6 +62,7 @@ export default function MembersPage() {
                   key={member.slug}
                   name={member.name}
                   slug={member.slug}
+                  photoExt={member.photoExt}
                   lines={[member.role]}
                   researchInterests={member.researchInterests}
                   bottomItems={[{ icon: "email", text: member.email }]}
