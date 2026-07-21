@@ -186,3 +186,5 @@ collections:
           - { label: "Full name", name: fullName, widget: string }
           - { label: "Department", name: department, widget: string }
           - { label: "University", name: university, widget: string }
+          - { label: "Office (건물·호실, 예: CALS Bldg 1, Room 222)", name: office, widget: string }
+          - { label: "Address (도로명 주소)", name: address, widget: string }
