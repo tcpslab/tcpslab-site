@@ -3,7 +3,7 @@
 # just add "tcpslab.vercel.app" to its ALLOWED_DOMAINS).
 backend:
   name: github
-  repo: latencyspace/tcpslab-site
+  repo: tcpslab/tcpslab-site
   branch: master
   base_url: https://YOUR-OAUTH-PROXY.workers.dev   # <-- change me
 
