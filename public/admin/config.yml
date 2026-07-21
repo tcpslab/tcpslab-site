@@ -1,11 +1,9 @@
 # Sveltia CMS configuration for TCPS Lab
-# TODO(Jihwan): set base_url to your OAuth Worker URL (same worker as ORMS Lab —
-# just add "tcpslab.vercel.app" to its ALLOWED_DOMAINS).
 backend:
   name: github
   repo: tcpslab/tcpslab-site
   branch: master
-  base_url: https://sveltia-cms-auth.tcps-laboratory.workers.dev   # <-- change me
+  base_url: https://sveltia-cms-auth.tcps-laboratory.workers.dev
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
