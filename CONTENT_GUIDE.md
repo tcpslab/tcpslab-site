@@ -45,7 +45,9 @@ ORMS Lab 홈페이지에 사용한 **Cloudflare Worker(sveltia-cms-auth)를 그�
 
 ## 구성원 초대
 
-repo(latencyspace/tcpslab-site) → Settings → Collaborators → 구성원 GitHub 계정을 **Write** 권한으로 초대.
+repo(tcpslab/tcpslab-site) → Settings → Collaborators and teams → Add people → 구성원 GitHub 계정을 **Write** 권한으로 초대. (또는 tcpslab organization 멤버로 초대 후 팀 권한 부여)
+
+> 참고: 이 repo는 **public**입니다. Vercel Hobby(무료) 플랜이 organization 소유의 private repo를 배포하지 못하기 때문입니다. 비밀번호·API 키 등 민감한 값은 절대 커밋하지 말고, 필요하면 Vercel의 Environment Variables를 사용하세요.
 초대받은 구성원은 /admin에서 로그인만 하면 됩니다.
 
 ## 참고
