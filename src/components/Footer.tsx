@@ -1,3 +1,5 @@
+import { site } from "@/lib/site";
+
 export default function Footer({
   contained = true,
 }: {
@@ -14,18 +16,17 @@ export default function Footer({
 
           <div>
             <p className="mb-3 text-2xl font-semibold text-neutral-700">
-              TCPS Lab
+              {site.shortName}
             </p>
             <p>Terramechanics and Cyber-Physical Systems Laboratory</p>
             <p>
-              Department of Convergence Biosystems Engineering, Chonnam
-              National University
+              {site.department}, {site.university}
             </p>
           </div>
 
           <div className="text-left md:text-right">
-            <p>CALS Bldg 2, Room 222</p>
-            <p>77, Yongbong-ro, Buk-gu, Gwangju, 61186, Republic of Korea</p>
+            <p>{site.office}</p>
+            <p>{site.address}</p>
             <p className="mt-3 text-neutral-400">
               Copyright © 2024 TCPS Lab &nbsp;|&nbsp; Developed and designed
               by Jihwan Park
