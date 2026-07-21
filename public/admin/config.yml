@@ -5,7 +5,7 @@ backend:
   name: github
   repo: tcpslab/tcpslab-site
   branch: master
-  base_url: https://YOUR-OAUTH-PROXY.workers.dev   # <-- change me
+  base_url: https://sveltia-cms-auth.tcps-laboratory.workers.dev   # <-- change me
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
