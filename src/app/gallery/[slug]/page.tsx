@@ -55,11 +55,7 @@ export default async function GalleryItemPage({
             </h1>
 
             <div className="relative mt-8 aspect-video w-full overflow-hidden rounded-xl bg-[#4b3a24]/10">
-              <GalleryCarousel
-                photoDir={item.photoDir}
-                images={item.images}
-                alt={item.title}
-              />
+              <GalleryCarousel images={item.images} alt={item.title} />
             </div>
 
             {item.intro && (

@@ -1,0 +1,90 @@
+{
+  "name": "Ji-Tae Kim",
+  "slug": "ji-tae-kim",
+  "role": "Assistant Professor",
+  "email": "jtkim@jnu.ac.kr",
+  "office": "CALS Building 1, Room 217",
+  "education": [
+    {
+      "period": "2019.03 – 2024.02",
+      "degree": "Ph.D., Department of Biosystems Engineering, Seoul National University",
+      "thesis": "Development of off-road mobility prediction model for wheel using machine learning and numerical method",
+      "advisor": "Prof. Young-Jun Park"
+    },
+    {
+      "period": "2015.03 – 2019.02",
+      "degree": "B.S., Department of Bio-Industrial Machinery Engineering, Kongju National University"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2024.09 – Present",
+      "title": "Assistant Professor, Department of Convergence Biosystems Engineering, Chonnam National University"
+    },
+    {
+      "period": "2024.04 – 2024.07",
+      "title": "Post-Doctoral Researcher, Korea Research Institute of Ships & Ocean Engineering (KRISO)"
+    },
+    {
+      "period": "2024.03 – 2024.03",
+      "title": "Senior Researcher, Research Institute of Agriculture and Life Science, Seoul National University"
+    }
+  ],
+  "researchInterests": [
+    "Modeling & Simulation of Terramechanics System",
+    "Off-Road Vehicle Mobility",
+    "Soil-Machine Interaction Analysis",
+    "Design & Evaluation of Agricultural Machinery based on Actual Load"
+  ],
+  "skills": [
+    {
+      "category": "Programming",
+      "items": [
+        "MATLAB & Simulink",
+        "Python"
+      ]
+    },
+    {
+      "category": "Computer-Aided Testing, CAE",
+      "items": [
+        "Gear System: MASTA [SMT], KISSSoft [KISSSoft AG]",
+        "MBD: MotionSolve [Altair]",
+        "DEM: EDEM [Altair]"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "date": "2023.11.03",
+      "title": "Outstanding Paper Presentation Award, Korean Society for Agricultural Machinery"
+    },
+    {
+      "date": "2023.05.03",
+      "title": "Future Ocean Science and Technology Award, President of the Korean Association of Ocean Science and Technology Societies"
+    },
+    {
+      "date": "2023.04.28",
+      "title": "Outstanding Paper Presentation Award, Korean Society for Agricultural Machinery"
+    },
+    {
+      "date": "2022.07.15",
+      "title": "Outstanding Paper Presentation Award, the Korean Society of Industry Convergence"
+    },
+    {
+      "date": "2022.06.27",
+      "title": "BK21 Four Coloquium Outstanding Graduate Student, Seoul National University BK21 4th Graduate Innovation Project Group"
+    },
+    {
+      "date": "2022.06.23",
+      "title": "Outstanding Presentation Award, the Korean Society of Marine Environment & Safety"
+    },
+    {
+      "date": "2021.04.30",
+      "title": "Outstanding Paper Presentation Award, Korean Society for Agricultural Machinery"
+    },
+    {
+      "date": "2020.11.06",
+      "title": "Outstanding Paper Presentation Award, the Korean Society of Manufacturing Process Engineers"
+    }
+  ]
+}

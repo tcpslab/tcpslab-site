@@ -1,0 +1,79 @@
+{
+  "researchers": [
+    {
+      "name": "Ji-Hwan Park",
+      "slug": "ji-hwan-park",
+      "photoExt": "png",
+      "role": "Master Course",
+      "email": "jihwanpark@jnu.ac.kr",
+      "researchInterests": [
+        "Modeling & Simulation of Terramechanics System",
+        "Soil-Machine Interaction Analysis"
+      ]
+    },
+    {
+      "name": "Joon-Seo Kim",
+      "slug": "jun-seo-kim",
+      "role": "Master Course",
+      "email": "jskim_00@jnu.ac.kr",
+      "researchInterests": [
+        "Modeling & Simulation of Terramechanics System",
+        "Discrete Element Method (DEM)"
+      ]
+    },
+    {
+      "name": "Moo-Young Oh",
+      "slug": "moo-young-oh",
+      "role": "Master Course",
+      "email": "mooyoungoh@jnu.ac.kr",
+      "researchInterests": [
+        "Modeling & Simulation of Terramechanics System",
+        "Off-road Vehicle Mobility"
+      ]
+    },
+    {
+      "name": "Sang-Uk Park",
+      "slug": "sang-uk-park",
+      "role": "Undergraduate Student",
+      "email": "pes2937@naver.com"
+    },
+    {
+      "name": "Ju-Hyun Ahn",
+      "slug": "ju-hyun-ahn",
+      "role": "Undergraduate Student",
+      "email": "peachcraffe@gmail.com"
+    },
+    {
+      "name": "Seung-Yeon Lee",
+      "slug": "seung-yeon-lee",
+      "role": "Undergraduate Student",
+      "email": "vus0924@jnu.ac.kr"
+    },
+    {
+      "name": "Dan-A Kim",
+      "slug": "dan-a-kim",
+      "role": "Undergraduate Student",
+      "email": "da1800@jnu.ac.kr"
+    },
+    {
+      "name": "Se-Hee Park",
+      "slug": "se-hee-park",
+      "role": "Undergraduate Student",
+      "email": "bsehui57@jnu.ac.kr"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Jae-Young Park",
+      "slug": "jae-young-park",
+      "role": "Undergraduate Student",
+      "period": "November 2024 – June 2025"
+    },
+    {
+      "name": "Hae-Jun Kim",
+      "slug": "hae-jun-kim",
+      "role": "Undergraduate Student",
+      "period": "November 2024 – December 2025"
+    }
+  ]
+}

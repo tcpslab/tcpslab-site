@@ -1,9 +1,8 @@
-export const site = {
-  shortName: "TCPS Lab",
-  fullName: "Terramechanics and Cyber-Physical Systems Lab",
-  department: "Department of Convergence Biosystems Engineering",
-  university: "Chonnam National University",
-};
+// Lab name/department live in /content/site.json (editable via /admin CMS).
+// Navigation stays in code because it mirrors the app's routes.
+import siteData from "../../content/site.json";
+
+export const site = siteData;
 
 export const navItems = [
   { label: "Home", href: "/" },

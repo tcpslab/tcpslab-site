@@ -56,3 +56,6 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# one-off content migration script
+gen-content.mts

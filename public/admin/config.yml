@@ -1,0 +1,190 @@
+# Sveltia CMS configuration for TCPS Lab
+# TODO(Jihwan): set base_url to your OAuth Worker URL (same worker as ORMS Lab —
+# just add "tcpslab.vercel.app" to its ALLOWED_DOMAINS).
+backend:
+  name: github
+  repo: latencyspace/tcpslab-site
+  branch: master
+  base_url: https://YOUR-OAUTH-PROXY.workers.dev   # <-- change me
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: content
+    label: "Site content"
+    files:
+      - name: gallery
+        label: "Gallery (사진첩)"
+        file: "content/gallery.json"
+        fields:
+          - label: "Gallery events"
+            name: items
+            widget: list
+            summary: "{{fields.title}} ({{fields.date}})"
+            fields:
+              - { label: "Slug (URL용 고유 id, 영문-하이픈)", name: slug, widget: string }
+              - { label: "Title", name: title, widget: string }
+              - { label: "Date (예: June 13, 2026)", name: date, widget: string }
+              - label: "Category"
+                name: category
+                widget: select
+                options: ["Conference", "Seminar", "MT", "Presentation", "Etc"]
+              - { label: "Description (목록에 보이는 요약)", name: description, widget: text }
+              - { label: "Intro (상세 페이지 인사말, 선택)", name: intro, widget: text, required: false }
+              - label: "Presenters (발표자, 선택)"
+                name: presenters
+                widget: list
+                required: false
+                fields:
+                  - { label: "Name(s)", name: name, widget: string }
+                  - { label: "Topic", name: topic, widget: string }
+              - label: "Photos"
+                name: images
+                widget: list
+                field: { label: "Image", name: image, widget: image }
+
+      - name: members
+        label: "Members (구성원)"
+        file: "content/members.json"
+        fields:
+          - label: "Researchers (현재 구성원)"
+            name: researchers
+            widget: list
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - { label: "Name (영문)", name: name, widget: string }
+              - { label: "Slug (사진 파일명과 동일, 예: ji-hwan-park)", name: slug, widget: string }
+              - { label: "Photo extension (public/members/<slug>.<ext>, 기본 jpg)", name: photoExt, widget: string, required: false }
+              - label: "Role"
+                name: role
+                widget: select
+                options: ["Ph.D. Course", "Master Course", "Undergraduate Student"]
+              - { label: "Email", name: email, widget: string }
+              - label: "Research interests (선택)"
+                name: researchInterests
+                widget: list
+                required: false
+                field: { label: "Interest", name: interest, widget: string }
+          - label: "Alumni"
+            name: alumni
+            widget: list
+            summary: "{{fields.name}} ({{fields.period}})"
+            fields:
+              - { label: "Name", name: name, widget: string }
+              - { label: "Slug", name: slug, widget: string }
+              - { label: "Role (재학 당시)", name: role, widget: string }
+              - { label: "Period (예: November 2024 – June 2025)", name: period, widget: string }
+
+      - name: publications
+        label: "Publications (논문/특허)"
+        file: "content/publications.json"
+        fields:
+          - label: "Publications"
+            name: publications
+            widget: list
+            summary: "{{fields.year}} · {{fields.title}}"
+            fields:
+              - label: "Category"
+                name: category
+                widget: select
+                options: ["International Journal", "International Conference", "Domestic Journal", "Domestic Conference", "Patents"]
+              - { label: "Year (숫자)", name: year, widget: number, value_type: int }
+              - { label: "Date (예: March 2026)", name: date, widget: string }
+              - { label: "Title", name: title, widget: string }
+              - { label: "Authors (쉼표로 구분, 랩 구성원 이름은 자동 강조됨)", name: authors, widget: text }
+              - { label: "Journal/Conference (게재지·학회명)", name: venue, widget: string }
+              - { label: "Link (DOI 등, 선택)", name: link, widget: string, required: false }
+              - { label: "Extra (비고, 선택)", name: extra, widget: string, required: false }
+
+      - name: projects
+        label: "Projects (연구과제)"
+        file: "content/projects.json"
+        fields:
+          - label: "Projects"
+            name: projects
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title (영문)", name: title, widget: string }
+              - { label: "Korean title (국문 과제명)", name: koreanTitle, widget: string }
+              - { label: "Period (예: April 2025 – December 2028)", name: period, widget: string }
+              - { label: "Funding agency (영문)", name: fundingAgency, widget: string }
+              - { label: "Funding agency (국문)", name: fundingAgencyKo, widget: string }
+              - { label: "Lead organization (영문)", name: leadOrganization, widget: string }
+              - { label: "Lead organization (국문, 선택)", name: leadOrganizationKo, widget: string, required: false }
+              - { label: "Description (선택)", name: description, widget: string, required: false }
+
+      - name: courses
+        label: "Courses (강의)"
+        file: "content/courses.json"
+        fields:
+          - label: "Courses"
+            name: courses
+            widget: list
+            summary: "#{{fields.number}} {{fields.semester}} · {{fields.title}}"
+            fields:
+              - { label: "Number (정렬용 순번, 최신이 큰 숫자)", name: number, widget: number, value_type: int }
+              - { label: "Semester (예: 2026 Spring)", name: semester, widget: string }
+              - { label: "Title", name: title, widget: string }
+              - label: "Level"
+                name: level
+                widget: select
+                options: ["Undergraduate", "Graduate"]
+              - { label: "Code (예: AGE4038-1)", name: code, widget: string }
+              - { label: "Location", name: location, widget: string }
+              - { label: "Schedule (예: Monday 7-8, Wednesday 7-8)", name: schedule, widget: string }
+              - { label: "Description", name: description, widget: text }
+
+      - name: professor
+        label: "Professor (교수님 프로필)"
+        file: "content/professor.json"
+        fields:
+          - { label: "Name", name: name, widget: string }
+          - { label: "Slug (사진 파일명, public/members/<slug>.jpg)", name: slug, widget: string }
+          - { label: "Role", name: role, widget: string }
+          - { label: "Email", name: email, widget: string }
+          - { label: "Office", name: office, widget: string }
+          - label: "Education"
+            name: education
+            widget: list
+            fields:
+              - { label: "Period", name: period, widget: string }
+              - { label: "Degree", name: degree, widget: string }
+              - { label: "Thesis (선택)", name: thesis, widget: string, required: false }
+              - { label: "Advisor (선택)", name: advisor, widget: string, required: false }
+          - label: "Experience"
+            name: experience
+            widget: list
+            fields:
+              - { label: "Period", name: period, widget: string }
+              - { label: "Title", name: title, widget: string }
+          - label: "Research interests"
+            name: researchInterests
+            widget: list
+            field: { label: "Interest", name: interest, widget: string }
+          - label: "Skills"
+            name: skills
+            widget: list
+            fields:
+              - { label: "Category", name: category, widget: string }
+              - label: "Items"
+                name: items
+                widget: list
+                field: { label: "Item", name: item, widget: string }
+          - label: "Awards"
+            name: awards
+            widget: list
+            summary: "{{fields.date}} · {{fields.title}}"
+            fields:
+              - { label: "Date (예: 2023.11.03)", name: date, widget: string }
+              - { label: "Title", name: title, widget: string }
+
+      - name: site
+        label: "Site settings (사이트 기본 정보)"
+        file: "content/site.json"
+        fields:
+          - { label: "Short name", name: shortName, widget: string }
+          - { label: "Full name", name: fullName, widget: string }
+          - { label: "Department", name: department, widget: string }
+          - { label: "University", name: university, widget: string }

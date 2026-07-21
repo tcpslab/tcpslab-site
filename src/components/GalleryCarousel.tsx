@@ -3,11 +3,9 @@
 import { useState } from "react";
 
 export default function GalleryCarousel({
-  photoDir,
   images,
   alt,
 }: {
-  photoDir: string;
   images: string[];
   alt: string;
 }) {
@@ -28,7 +26,7 @@ export default function GalleryCarousel({
     <>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src={`/gallery/${photoDir}/${images[index]}`}
+        src={images[index]}
         alt={`${alt} (${index + 1}/${images.length})`}
         className="absolute inset-0 h-full w-full object-cover"
       />

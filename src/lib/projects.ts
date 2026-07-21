@@ -1,3 +1,7 @@
+// Content lives in /content/projects.json (editable via /admin CMS).
+// This file only defines types and re-exports the data.
+import data from "../../content/projects.json";
+
 export type Project = {
   title: string;
   koreanTitle: string;
@@ -9,56 +13,4 @@ export type Project = {
   description?: string;
 };
 
-export const projects: Project[] = [
-  {
-    title:
-      "Commercialization of Open-field Smart Farming Integrated Monitoring System",
-    koreanTitle: "노지 스마트농업 통합관제 시스템 산업화",
-    period: "April 2025 – December 2028",
-    fundingAgency: "Ministry of Agriculture, Food and Rural Affairs",
-    fundingAgencyKo: "농림축산식품부",
-    leadOrganization: "TYMICT",
-  },
-  {
-    title: "Development of Unmanned Systems Technology for Seabed Resource Exploration",
-    koreanTitle: "해양자원탐사를 위한 무인체계 기술개발",
-    period: "April 2026 – December 2030",
-    fundingAgency: "Ministry of Oceans and Fisheries",
-    fundingAgencyKo: "해양수산부",
-    leadOrganization: "Korea Research Institute of Ships and Ocean Engineering",
-    leadOrganizationKo: "선박해양플랜트연구소",
-  },
-  {
-    title:
-      "A Study on Measurement and Estimation of Soil Properties for Off-road Virtual Environments",
-    koreanTitle: "무인자율차량 시험평가를 위한 가상 시험환경 고도화 기술 개발",
-    description: "야지 가상환경 구현을 위한 토양특성 파라미터 추정 연구",
-    period: "April 2026 – December 2027",
-    fundingAgency: "Defense Acquisition Program Administration",
-    fundingAgencyKo: "방위사업청",
-    leadOrganization: "Agency for Defense Development",
-    leadOrganizationKo: "국방과학연구소",
-  },
-  {
-    title:
-      "Analysis Technologies and Methodology Establishment for Small-scale Floating Offshore Platform Anchors",
-    koreanTitle: "운용환경별 해상플랫폼 계류시스템 기술 연구",
-    description: "소형 부유식 해상플랫폼용 수중앵커의 지지력 해석 기술 조사 분석 및 방법론 수립",
-    period: "May 2026 – October 2026",
-    fundingAgency: "Republic of Korea Navy",
-    fundingAgencyKo: "대한민국 해군",
-    leadOrganization: "Korea Research Institute of Ships and Ocean Engineering",
-    leadOrganizationKo: "선박해양플랜트연구소",
-  },
-  {
-    title:
-      "Analysis of Techniques for Testbed Configuration and Simulation Considering Coastal Ground Environments",
-    koreanTitle: "해안 부착기름 제거를 위한 소형 브러쉬 타입 유회수기 개발",
-    description: "연안지반 환경을 고려한 테스트베드 구성 및 모사를 위한 기법분석",
-    period: "June 2026 – November 2026",
-    fundingAgency: "Korea Coast Guard",
-    fundingAgencyKo: "해양경찰청",
-    leadOrganization: "Korea Research Institute of Ships and Ocean Engineering",
-    leadOrganizationKo: "선박해양플랜트연구소",
-  },
-];
+export const projects: Project[] = data.projects;

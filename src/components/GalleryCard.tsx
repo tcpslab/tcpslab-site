@@ -35,7 +35,7 @@ export default function GalleryCard({
           // eslint-disable-next-line @next/next/no-img-element
           <img
             ref={imgRef}
-            src={`/gallery/${item.photoDir}/${item.images[0]}`}
+            src={item.images[0]}
             alt={item.title}
             className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
             onError={() => setImgFailed(true)}
