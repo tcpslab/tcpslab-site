@@ -14,6 +14,7 @@
     {
       "name": "Joon-Seo Kim",
       "slug": "jun-seo-kim",
+      "photoExt": "",
       "role": "Master Course",
       "email": "jskim_00@jnu.ac.kr",
       "researchInterests": [
@@ -24,6 +25,7 @@
     {
       "name": "Moo-Young Oh",
       "slug": "moo-young-oh",
+      "photoExt": "",
       "role": "Master Course",
       "email": "mooyoungoh@jnu.ac.kr",
       "researchInterests": [
@@ -34,32 +36,45 @@
     {
       "name": "Sang-Uk Park",
       "slug": "sang-uk-park",
+      "photoExt": "",
       "role": "Undergraduate Student",
       "email": "pes2937@naver.com"
     },
     {
       "name": "Ju-Hyun Ahn",
       "slug": "ju-hyun-ahn",
+      "photoExt": "",
       "role": "Undergraduate Student",
       "email": "peachcraffe@gmail.com"
     },
     {
       "name": "Seung-Yeon Lee",
       "slug": "seung-yeon-lee",
+      "photoExt": "",
       "role": "Undergraduate Student",
       "email": "vus0924@jnu.ac.kr"
     },
     {
       "name": "Dan-A Kim",
       "slug": "dan-a-kim",
+      "photoExt": "",
       "role": "Undergraduate Student",
       "email": "da1800@jnu.ac.kr"
     },
     {
       "name": "Se-Hee Park",
       "slug": "se-hee-park",
+      "photoExt": "",
       "role": "Undergraduate Student",
       "email": "bsehui57@jnu.ac.kr"
+    },
+    {
+      "name": "Test",
+      "slug": "test",
+      "photoExt": "",
+      "role": "Undergraduate Student",
+      "email": "Test",
+      "researchInterests": []
     }
   ],
   "alumni": [
