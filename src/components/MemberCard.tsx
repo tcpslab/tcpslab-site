@@ -46,6 +46,10 @@ export default function MemberCard({
   const [imgFailed, setImgFailed] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
 
+  // Treat an empty/whitespace photoExt (e.g. saved as "" by the CMS) as the
+  // default "jpg" — a JS default parameter only applies to `undefined`.
+  const ext = photoExt && photoExt.trim() ? photoExt.trim() : "jpg";
+
   useEffect(() => {
     const img = imgRef.current;
     if (img && img.complete && img.naturalWidth === 0) {
@@ -64,7 +68,7 @@ export default function MemberCard({
         // eslint-disable-next-line @next/next/no-img-element
         <img
           ref={imgRef}
-          src={`/members/${slug}.${photoExt}`}
+          src={`/members/${slug}.${ext}`}
           alt={name}
           className="absolute inset-0 h-full w-full object-cover"
           onError={() => setImgFailed(true)}
