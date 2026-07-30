@@ -52,7 +52,7 @@ export default function ResearchPage() {
           </section>
 
           {/* Research areas */}
-          {research.sections.map((section, i) => (
+          {research.sections.map((section) => (
             <section
               key={section.id}
               className="border-b border-[#4b3a24]/10 py-16"
@@ -60,31 +60,25 @@ export default function ResearchPage() {
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#4b3a24]/40">
                 {section.eyebrow}
               </p>
-              <h3 className="mt-3 max-w-4xl text-2xl font-semibold leading-snug text-[#26343a] sm:text-3xl">
+              <h3 className="mt-3 text-2xl font-semibold leading-snug text-[#26343a] sm:text-3xl">
                 {section.title}
               </h3>
 
-              <div
-                className={`mt-10 flex flex-col gap-x-14 gap-y-10 lg:flex-row ${
-                  i % 2 === 1 ? "lg:flex-row-reverse" : ""
-                }`}
-              >
-                <div className="space-y-5 lg:w-[38%]">
-                  {section.paragraphs.map((p, j) => (
-                    <p
-                      key={j}
-                      className="text-lg leading-relaxed text-[#4b3a24]/80"
-                    >
-                      {p}
-                    </p>
-                  ))}
-                </div>
+              <div className="mt-6 space-y-5">
+                {section.paragraphs.map((p, j) => (
+                  <p
+                    key={j}
+                    className="text-lg leading-relaxed text-[#4b3a24]/80"
+                  >
+                    {p}
+                  </p>
+                ))}
+              </div>
 
-                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:w-[62%]">
-                  {section.images.map((img) => (
-                    <Figure key={img.src} image={img} />
-                  ))}
-                </div>
+              <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
+                {section.images.map((img) => (
+                  <Figure key={img.src} image={img} />
+                ))}
               </div>
             </section>
           ))}
