@@ -25,11 +25,11 @@
           "source": "https://commons.wikimedia.org/wiki/File:PIA20170-MarsCuriosityRover-WheelTrackInSand-20151203.jpg"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/DEMHopperEmptyingForceChains.png/1280px-DEMHopperEmptyingForceChains.png",
-          "caption": "Contact-force chains transmitting stress through a granular medium — the microscale origin of soil stress distribution.",
-          "credit": "C. Chabalko",
-          "license": "CC BY-SA 3.0",
-          "source": "https://commons.wikimedia.org/wiki/File:DEMHopperEmptyingForceChains.png"
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Tractor_ploughing_field%28GN13301%29.jpg/1280px-Tractor_ploughing_field%28GN13301%29.jpg",
+          "caption": "A tractor tilling a field — running gears displacing and deforming soil in the agricultural domain.",
+          "credit": "State Government Photographer",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Tractor_ploughing_field(GN13301).jpg"
         }
       ]
     },
@@ -43,11 +43,11 @@
       ],
       "images": [
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Cundall_DEM.gif",
-          "caption": "Discrete Element Method (DEM): a granular assembly rearranging under load.",
-          "credit": "Anders Damsgaard",
-          "license": "CC BY-SA 4.0",
-          "source": "https://commons.wikimedia.org/wiki/File:Cundall_DEM.gif"
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/DEMHopperEmptyingForceChains.png/1280px-DEMHopperEmptyingForceChains.png",
+          "caption": "Discrete Element Method (DEM): contact-force chains transmitting stress as a granular assembly discharges.",
+          "credit": "C. Chabalko",
+          "license": "CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:DEMHopperEmptyingForceChains.png"
         },
         {
           "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Sph_flow_cylinder_fs.jpg/1280px-Sph_flow_cylinder_fs.jpg",
