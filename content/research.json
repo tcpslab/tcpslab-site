@@ -18,18 +18,18 @@
       ],
       "images": [
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/PIA20170-MarsCuriosityRover-WheelTrackInSand-20151203.jpg/1280px-PIA20170-MarsCuriosityRover-WheelTrackInSand-20151203.jpg",
-          "caption": "A running-gear track pressed into loose sand — wheel–terrain interaction on deformable ground.",
-          "credit": "NASA/JPL-Caltech/MSSS",
-          "license": "Public domain",
-          "source": "https://commons.wikimedia.org/wiki/File:PIA20170-MarsCuriosityRover-WheelTrackInSand-20151203.jpg"
+          "src": "https://ars.els-cdn.com/content/image/1-s2.0-S0022489824000314-gr3_lrg.jpg",
+          "caption": "Wheel–terrain interaction of a tractor tire on deformable soil: load and torque inputs yielding traction, motion resistance, and sinkage.",
+          "credit": "TCPS Lab",
+          "license": "Journal of Terramechanics, 2024",
+          "source": "https://doi.org/10.1016/j.jterra.2024.100989"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Tractor_ploughing_field%28GN13301%29.jpg/1280px-Tractor_ploughing_field%28GN13301%29.jpg",
-          "caption": "A tractor tilling a field — running gears displacing and deforming soil in the agricultural domain.",
-          "credit": "State Government Photographer",
-          "license": "CC0",
-          "source": "https://commons.wikimedia.org/wiki/File:Tractor_ploughing_field(GN13301).jpg"
+          "src": "https://ars.els-cdn.com/content/image/1-s2.0-S0022489823000575-gr16_lrg.jpg",
+          "caption": "Discrete Element Method: the soil-particle velocity field as a track grouser shears through coastal terrain.",
+          "credit": "TCPS Lab",
+          "license": "Journal of Terramechanics, 2023",
+          "source": "https://doi.org/10.1016/j.jterra.2023.07.004"
         }
       ]
     },
@@ -43,11 +43,11 @@
       ],
       "images": [
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/DEMHopperEmptyingForceChains.png/1280px-DEMHopperEmptyingForceChains.png",
-          "caption": "Discrete Element Method (DEM): contact-force chains transmitting stress as a granular assembly discharges.",
-          "credit": "C. Chabalko",
-          "license": "CC BY-SA 3.0",
-          "source": "https://commons.wikimedia.org/wiki/File:DEMHopperEmptyingForceChains.png"
+          "src": "https://ars.els-cdn.com/content/image/1-s2.0-S027311772500242X-gr6_lrg.jpg",
+          "caption": "DEM-based mobility analysis of a lunar-rover wheel on lunar-simulant (KLS-1) terrain, under extreme-environment conditions.",
+          "credit": "TCPS Lab",
+          "license": "Advances in Space Research, 2025",
+          "source": "https://doi.org/10.1016/j.asr.2025.03.024"
         },
         {
           "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Sph_flow_cylinder_fs.jpg/1280px-Sph_flow_cylinder_fs.jpg",
