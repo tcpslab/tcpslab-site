@@ -13,7 +13,7 @@ function Figure({ image }: { image: ResearchImage }) {
           src={image.src}
           alt={image.caption}
           loading="lazy"
-          className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+          className="block h-auto w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
         />
       </div>
       <figcaption className="mt-3 text-sm leading-relaxed text-[#4b3a24]/60">
