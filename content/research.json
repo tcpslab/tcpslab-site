@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/PIA18590-MarsCuriosityRover-HiddenValleyTracks-20140804.jpg"
+  },
+  "intro": {
+    "eyebrow": "Research",
+    "lead": "The TCPS Laboratory investigates the fundamental physical interactions between mechanical systems and complex, unstructured environments.",
+    "body": "Our research aims to advance the theoretical foundations of terrain-machine systems and develop generalized computational frameworks that elucidate mechanics in extreme environments."
+  },
+  "sections": [
+    {
+      "id": "terramechanics",
+      "eyebrow": "Area 01",
+      "title": "Fundamental Terramechanics & Vehicle-Terrain Interaction",
+      "paragraphs": [
+        "At the core of our research is classical terramechanics. We focus on elucidating the mechanics of deformable terrain—such as soil, sand, and mud—and its dynamic interaction with various running gears, including wheels and tracks.",
+        "Moving beyond empirical observations, we formulate robust mathematical models that capture soil deformation, stress distribution, and traction mechanisms. These theoretical frameworks serve as foundational technologies, providing profound academic and engineering insights applicable to a wide spectrum of off-road mobility systems across the agricultural, construction, and defense sectors."
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/PIA20170-MarsCuriosityRover-WheelTrackInSand-20151203.jpg/1280px-PIA20170-MarsCuriosityRover-WheelTrackInSand-20151203.jpg",
+          "caption": "A running-gear track pressed into loose sand — wheel–terrain interaction on deformable ground.",
+          "credit": "NASA/JPL-Caltech/MSSS",
+          "license": "Public domain",
+          "source": "https://commons.wikimedia.org/wiki/File:PIA20170-MarsCuriosityRover-WheelTrackInSand-20151203.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/DEMHopperEmptyingForceChains.png/1280px-DEMHopperEmptyingForceChains.png",
+          "caption": "Contact-force chains transmitting stress through a granular medium — the microscale origin of soil stress distribution.",
+          "credit": "C. Chabalko",
+          "license": "CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:DEMHopperEmptyingForceChains.png"
+        }
+      ]
+    },
+    {
+      "id": "cyber-physical-systems",
+      "eyebrow": "Area 02",
+      "title": "Cyber-Physical Systems & Multiphysics Modeling",
+      "paragraphs": [
+        "Building upon our theoretical foundations, we extend our research scope to Cyber-Physical Systems (CPS) to investigate multi-domain interactions involving terrain, fluids, and mechanical structures.",
+        "By utilizing advanced computational methods—such as the Discrete Element Method (DEM), Smoothed Particle Hydrodynamics (SPH), and Multi-flexible body Dynamics (MFBD)—we reconstruct and analyze highly non-linear physical phenomena in virtual environments. This multiphysics modeling approach allows us to conduct scholarly investigations into complex mechanics, including the mobility of subsea robotics, seabed drilling mechanisms, and the geotechnical stability of marine infrastructure such as subsea anchors. Our computational research continuously contributes to the academic understanding of machine-environment interactions under extreme conditions."
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Cundall_DEM.gif",
+          "caption": "Discrete Element Method (DEM): a granular assembly rearranging under load.",
+          "credit": "Anders Damsgaard",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Cundall_DEM.gif"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Sph_flow_cylinder_fs.jpg/1280px-Sph_flow_cylinder_fs.jpg",
+          "wide": true,
+          "caption": "Smoothed Particle Hydrodynamics (SPH): free-surface flow past a cylinder.",
+          "credit": "A. Souto-Iglesias",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Sph_flow_cylinder_fs.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Deep_Discoverer_seabed_Puerto_Rico_11_April_2025.png",
+          "caption": "A robotic vehicle surveying the seabed — a target domain for subsea mobility and geotechnical stability.",
+          "credit": "NOAA Office of Ocean Exploration and Research",
+          "license": "Public domain",
+          "source": "https://commons.wikimedia.org/wiki/File:Deep_Discoverer_seabed_Puerto_Rico_11_April_2025.png"
+        }
+      ]
+    }
+  ]
+}
