@@ -43,10 +43,10 @@ export default function ResearchPage() {
             <p className="text-base font-semibold uppercase tracking-wide text-[#9c5b33] sm:text-lg">
               {research.intro.eyebrow}
             </p>
-            <h2 className="mt-5 max-w-7xl text-3xl font-semibold leading-snug text-[#26343a] sm:text-4xl lg:text-[2.75rem]">
+            <h2 className="mt-5 text-3xl font-semibold leading-snug text-[#26343a] sm:text-4xl lg:text-[2.75rem]">
               {research.intro.lead}
             </h2>
-            <p className="mt-6 max-w-6xl text-lg leading-relaxed text-[#4b3a24]/75 sm:text-xl">
+            <p className="mt-6 text-lg leading-relaxed text-[#4b3a24]/75 sm:text-xl">
               {research.intro.body}
             </p>
           </section>
