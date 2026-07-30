@@ -12,7 +12,6 @@ function Figure({ image }: { image: ResearchImage }) {
         <img
           src={image.src}
           alt={image.caption}
-          loading="lazy"
           className="block h-auto w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
         />
       </div>
