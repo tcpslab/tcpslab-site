@@ -50,19 +50,19 @@
           "source": "https://doi.org/10.1016/j.asr.2025.03.024"
         },
         {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Deep_Discoverer_seabed_Puerto_Rico_11_April_2025.png",
+          "caption": "A robotic vehicle surveying the seabed — a target domain for subsea mobility and geotechnical stability.",
+          "credit": "NOAA Office of Ocean Exploration and Research",
+          "license": "Public domain",
+          "source": "https://commons.wikimedia.org/wiki/File:Deep_Discoverer_seabed_Puerto_Rico_11_April_2025.png"
+        },
+        {
           "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Sph_flow_cylinder_fs.jpg/1280px-Sph_flow_cylinder_fs.jpg",
           "wide": true,
           "caption": "Smoothed Particle Hydrodynamics (SPH): free-surface flow past a cylinder.",
           "credit": "A. Souto-Iglesias",
           "license": "CC BY-SA 4.0",
           "source": "https://commons.wikimedia.org/wiki/File:Sph_flow_cylinder_fs.jpg"
-        },
-        {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Deep_Discoverer_seabed_Puerto_Rico_11_April_2025.png",
-          "caption": "A robotic vehicle surveying the seabed — a target domain for subsea mobility and geotechnical stability.",
-          "credit": "NOAA Office of Ocean Exploration and Research",
-          "license": "Public domain",
-          "source": "https://commons.wikimedia.org/wiki/File:Deep_Discoverer_seabed_Puerto_Rico_11_April_2025.png"
         }
       ]
     }
