@@ -40,13 +40,13 @@ export default function ResearchPage() {
         >
           {/* Intro */}
           <section className="border-b border-[#4b3a24]/10 pb-16">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#9c5b33]">
+            <p className="text-base font-semibold uppercase tracking-wide text-[#9c5b33] sm:text-lg">
               {research.intro.eyebrow}
             </p>
-            <h2 className="mt-5 max-w-4xl text-3xl font-semibold leading-snug text-[#26343a] sm:text-4xl">
+            <h2 className="mt-5 max-w-7xl text-3xl font-semibold leading-snug text-[#26343a] sm:text-4xl lg:text-[2.75rem]">
               {research.intro.lead}
             </h2>
-            <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[#4b3a24]/70">
+            <p className="mt-6 max-w-6xl text-lg leading-relaxed text-[#4b3a24]/75 sm:text-xl">
               {research.intro.body}
             </p>
           </section>
