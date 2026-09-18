@@ -1,6 +1,16 @@
 {
   "courses": [
     {
+      "number": 15,
+      "semester": "2026 Fall",
+      "title": "Soil-Machine System",
+      "level": "Graduate",
+      "code": "GR25577-1",
+      "location": "No. 411, CALS Bldg 2",
+      "schedule": "Monday 11-13",
+      "description": "The purpose of the class is to understand the basic concepts and principles of the physical and mechanical characteristics and destruction of the soil, and to learn about the interaction principles of soil mechanical systems such as serology and soil cutting based on them. In addition, by applying this, it is intended to cultivate knowledge that can predict the towing performance of off-road vehicles and design soil cutting devices."
+    },
+    {
       "number": 14,
       "semester": "2026 Fall",
       "title": "Biosystems Capstone Design 1",
@@ -139,16 +149,6 @@
       "location": "No. 213, CALS Bldg 2",
       "schedule": "Monday 5-6, Wednesday 5",
       "description": "This course provides a basic knowledge on mechanics of materials for biosystems engineering. This course deals with structural and physical characteristics as well as basic mechanics of materials concepts such as stress, strain, tension, compression, torsion of biomaterials."
-    },
-    {
-      "number": 15,
-      "semester": "2026 Fall",
-      "title": "Soil-Machine System",
-      "level": "Graduate",
-      "code": "GR25577-1",
-      "location": "No. 411, CALS Bldg 2",
-      "schedule": "Monday 11-13",
-      "description": "The purpose of the class is to understand the basic concepts and principles of the physical and mechanical characteristics and destruction of the soil, and to learn about the interaction principles of soil mechanical systems such as serology and soil cutting based on them. In addition, by applying this, it is intended to cultivate knowledge that can predict the towing performance of off-road vehicles and design soil cutting devices."
     }
   ]
 }
