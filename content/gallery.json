@@ -1,8 +1,20 @@
 {
   "items": [
     {
+      "slug": "20260818-TaeanMT",
+      "title": "2026 Summer Lab MT",
+      "date": "August 18, 2026",
+      "category": "MT",
+      "description": "Field investigation in Taean to study the characteristics of tidal flats and sand for our research project!",
+      "intro": "Our lab members went on a field trip to Taean to investigate the characteristics of the tidal flats and sand for our ongoing research project.",
+      "presenters": [],
+      "images": [
+        "/uploads/01.jpg",
+        "/uploads/03.jpg"
+      ]
+    },
+    {
       "slug": "2026-korea-military-science-and-technology-conference_260613",
-      "photoDir": "military-science-tech-conference",
       "title": "2026 Korea Military Science and Technology Conference",
       "date": "June 13, 2026",
       "category": "Conference",
@@ -16,11 +28,11 @@
       ],
       "images": [
         "/gallery/military-science-tech-conference/military-science-tech-conference_1.avif"
-      ]
+      ],
+      "photoDir": "military-science-tech-conference"
     },
     {
       "slug": "ksam-2026-spring-conference_260515",
-      "photoDir": "agricultural-machinery-conference-spring-2026",
       "title": "KSAM 2026 Spring Conference",
       "date": "May 15, 2026",
       "category": "Conference",
@@ -47,11 +59,11 @@
         "/gallery/agricultural-machinery-conference-spring-2026/agricultural-machinery-conference-spring-2026_4.avif",
         "/gallery/agricultural-machinery-conference-spring-2026/agricultural-machinery-conference-spring-2026_5.avif",
         "/gallery/agricultural-machinery-conference-spring-2026/agricultural-machinery-conference-spring-2026_6.avif"
-      ]
+      ],
+      "photoDir": "agricultural-machinery-conference-spring-2026"
     },
     {
       "slug": "ksam-2025-fall-conference_251029",
-      "photoDir": "agricultural-machinery-conference-fall-2025",
       "title": "KSAM 2025 Fall Conference",
       "date": "October 29, 2025",
       "category": "Conference",
@@ -77,62 +89,66 @@
         "/gallery/agricultural-machinery-conference-fall-2025/agricultural-machinery-conference-fall-2025_3.webp",
         "/gallery/agricultural-machinery-conference-fall-2025/agricultural-machinery-conference-fall-2025_4.avif",
         "/gallery/agricultural-machinery-conference-fall-2025/agricultural-machinery-conference-fall-2025_5.webp"
-      ]
+      ],
+      "photoDir": "agricultural-machinery-conference-fall-2025"
     },
     {
       "slug": "kriso-seminar_250826",
-      "photoDir": "kriso-seminar",
       "title": "KRISO Seminar",
       "date": "August 26, 2025",
       "category": "Seminar",
       "description": "Lab visit to the Korea Research Institute of Ships & Ocean Engineering (KRISO) in Geoje for a seminar.",
       "intro": "We went to KRISO (Korea Research Institute of Ships & Ocean Engineering) in Geoje for a seminar!",
+      "presenters": [],
       "images": [
         "/gallery/kriso-seminar/kriso-seminar_1.avif",
         "/gallery/kriso-seminar/kriso-seminar_2.avif"
-      ]
+      ],
+      "photoDir": "kriso-seminar"
     },
     {
       "slug": "snu-jnu-joint-mt_250820",
-      "photoDir": "joint-mt-activity",
       "title": "SNU-JNU Joint MT",
       "date": "August 20, 2025",
       "category": "MT",
       "description": "Joint team-building retreat with Professor Young-Jun Park (MP Lab) of Seoul National University, Professor Joo-Seon Oh (ORMS Lab) of Chonnam National University, and Professor Ji-Tae Kim of TCPS Lab.",
       "intro": "We went on a Joint MT with Professor Young-Jun Park (MP Lab) of Seoul National University, Professor Joo-Seon Oh (ORMS Lab) of Chonnam National University, and Professor Ji-Tae Kim of TCPS Lab of Chonnam National University!",
+      "presenters": [],
       "images": [
         "/gallery/joint-mt-activity/joint-mt-activity_1.avif"
-      ]
+      ],
+      "photoDir": "joint-mt-activity"
     },
     {
       "slug": "2025-gear-train-conference_250811",
-      "photoDir": "gear-train-conference",
       "title": "2025 Gear Train Conference",
       "date": "August 11, 2025",
       "category": "Conference",
       "description": "Conference participation at the Gear Train conference held at Seoul National University.",
       "intro": "We went to the Geartrain conference held at Seoul National University!",
+      "presenters": [],
       "images": [
         "/gallery/gear-train-conference/gear-train-conference_1.avif"
-      ]
+      ],
+      "photoDir": "gear-train-conference"
     },
     {
       "slug": "add-seminar-and-field-trip_250716",
-      "photoDir": "add-seminar-field-trip",
       "title": "ADD Seminar and Field Trip",
       "date": "July 16, 2025",
       "category": "Seminar",
       "description": "Seminar and field trip to the Agency for Defense Development (ADD) in Changwon.",
       "intro": "We went on a seminar and field trip to the ADD (Agency for Defense Development) in Changwon!",
+      "presenters": [],
       "images": [
         "/gallery/add-seminar-field-trip/add-seminar-field-trip_1.avif",
         "/gallery/add-seminar-field-trip/add-seminar-field-trip_2.webp",
         "/gallery/add-seminar-field-trip/add-seminar-field-trip_3.webp"
-      ]
+      ],
+      "photoDir": "add-seminar-field-trip"
     },
     {
       "slug": "2025-spring-graduation-presentation_250620",
-      "photoDir": "graduation-presentation",
       "title": "2025 Spring Graduation Presentation",
       "date": "June 20, 2025",
       "category": "Presentation",
@@ -151,23 +167,25 @@
       "images": [
         "/gallery/graduation-presentation/graduation-presentation_1.avif",
         "/gallery/graduation-presentation/graduation-presentation_2.avif"
-      ]
+      ],
+      "photoDir": "graduation-presentation"
     },
     {
       "slug": "2024-winter-lab-mt_250224",
-      "photoDir": "winter-mt",
       "title": "2024 Winter Lab MT",
       "date": "February 24, 2025",
       "category": "MT",
       "description": "Professor and undergraduate researchers went on a winter team retreat in Yeosu.",
       "intro": "Professor and undergraduate researchers went on a winter MT in Yeosu!",
+      "presenters": [],
       "images": [
         "/gallery/winter-mt/winter-mt_1.avif",
         "/gallery/winter-mt/winter-mt_2.avif",
         "/gallery/winter-mt/winter-mt_3.avif",
         "/gallery/winter-mt/winter-mt_4.avif",
         "/gallery/winter-mt/winter-mt_5.avif"
-      ]
+      ],
+      "photoDir": "winter-mt"
     }
   ]
 }
