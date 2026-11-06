@@ -27,7 +27,7 @@ collections:
               - label: "Category"
                 name: category
                 widget: select
-                options: ["Conference", "Seminar", "MT", "Presentation", "Etc"]
+                options: ["Conference", "Seminar", "MT", "Presentation", "Award", "Etc"]
               - { label: "Description (목록에 보이는 요약)", name: description, widget: text }
               - { label: "Intro (상세 페이지 인사말, 선택)", name: intro, widget: text, required: false }
               - label: "Presenters (발표자, 선택)"
