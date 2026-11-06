@@ -1,17 +1,6 @@
 {
   "researchers": [
     {
-      "name": "Ji-Hwan Park",
-      "slug": "ji-hwan-park",
-      "photoExt": "png",
-      "role": "Master Course",
-      "email": "jihwanpark@jnu.ac.kr",
-      "researchInterests": [
-        "Modeling & Simulation of Terramechanics System",
-        "Soil-Machine Interaction Analysis"
-      ]
-    },
-    {
       "name": "Joon-Seo Kim",
       "slug": "jun-seo-kim",
       "photoExt": "",
@@ -38,35 +27,40 @@
       "slug": "sang-uk-park",
       "photoExt": "",
       "role": "Undergraduate Student",
-      "email": "pes2937@naver.com"
+      "email": "pes2937@naver.com",
+      "researchInterests": []
     },
     {
       "name": "Ju-Hyun Ahn",
       "slug": "ju-hyun-ahn",
       "photoExt": "",
       "role": "Undergraduate Student",
-      "email": "peachcraffe@gmail.com"
+      "email": "peachcraffe@gmail.com",
+      "researchInterests": []
     },
     {
       "name": "Seung-Yeon Lee",
       "slug": "seung-yeon-lee",
       "photoExt": "",
       "role": "Undergraduate Student",
-      "email": "vus0924@jnu.ac.kr"
+      "email": "vus0924@jnu.ac.kr",
+      "researchInterests": []
     },
     {
       "name": "Dan-A Kim",
       "slug": "dan-a-kim",
       "photoExt": "",
       "role": "Undergraduate Student",
-      "email": "da1800@jnu.ac.kr"
+      "email": "da1800@jnu.ac.kr",
+      "researchInterests": []
     },
     {
       "name": "Se-Hee Park",
       "slug": "se-hee-park",
       "photoExt": "",
       "role": "Undergraduate Student",
-      "email": "bsehui57@jnu.ac.kr"
+      "email": "bsehui57@jnu.ac.kr",
+      "researchInterests": []
     }
   ],
   "alumni": [
@@ -81,6 +75,12 @@
       "slug": "hae-jun-kim",
       "role": "Undergraduate Student",
       "period": "November 2024 – December 2025"
+    },
+    {
+      "name": "Ji-Hwan Park",
+      "slug": "ji-hwan-park",
+      "role": "Undergraduate Student",
+      "period": "October 2024 – August 2026"
     }
   ]
 }
