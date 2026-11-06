@@ -1,6 +1,38 @@
 {
   "items": [
     {
+      "slug": "2026-ISMAB_261020",
+      "title": "ISMAB 2026",
+      "date": "20-24 October 2026",
+      "category": "Conference",
+      "description": "Presentations on cone index prediction, lunar rover wheel design, Core Drilling DEM Modeling and Tracked Vehicle MBD Modeling at the International Symposium on Machinery and \nMechatronics for Agriculture and Biosystems Engineering (ISMAB 2026) held at BEXCO Busan.",
+      "intro": "We went to the International Symposium on Machinery and Mechatronics for Agriculture and Biosystems Engineering (ISMAB 2026) held at BEXCO Busan!",
+      "presenters": [
+        {
+          "name": "Joon-Seo Kim, Sang-Wook Park, Seung-Yeon Lee, Ji-Tae Kim",
+          "topic": "PHYSICS-GUIDED NEURAL NETWORK FOR CONE INDEX PREDICTION  FROM SOIL PHYSICAL PROPERTIES"
+        },
+        {
+          "name": "Joon-Seo Kim, Sang-Wook Park, Seung-Yeon Lee, Tae-Kyeong Yeu, Ji-Tae Kim",
+          "topic": "KINEMATIC ACCELERATION FOR BONDED-PARTICLE DISCRETE  ELEMENT SIMULATION OF ROTARY CORE DRILLING"
+        },
+        {
+          "name": "Moo-Young Oh, Ju-Hyeon An, Dan-A Kim, Se-Hee Park, Tae-Kyeong Yeu, Ji-Tae Kim",
+          "topic": "EFFECT OF UNDERCARRIAGE CONFIGURATION ON THE MOBILITY OF  DEEP-SEA TRACKED VEHICLES OVER HYDROTHERMAL VENT-FIELD  TERRAIN"
+        },
+        {
+          "name": "Moo-Young Oh, Ju-Hyeon Ahn, Dan-A Kim, Se-Hee Park, Ji-Tae Kim",
+          "topic": "MULTIVARIATE MOBILITY ANALYSIS OF LUNAR ROVER WHEELS USING  NUMERICAL METHOD UNDER LUNAR GRAVITY"
+        }
+      ],
+      "images": [
+        "/uploads/KakaoTalk_20261105_121909400_01.jpg",
+        "/uploads/KakaoTalk_20261104_204747955.jpg",
+        "/uploads/KakaoTalk_20261105_121909400_05.jpg",
+        "/uploads/KakaoTalk_20261104_204826462.jpg"
+      ]
+    },
+    {
       "slug": "20260818-TaeanMT",
       "title": "2026 Summer Lab MT",
       "date": "August 18, 2026",
