@@ -1,14 +1,38 @@
 {
   "items": [
     {
+      "slug": "Academic-Symposium-of-the-National-University-Development-Project-261028",
+      "title": "2026 국립대학육성사업 학술심포지엄",
+      "date": "October 28, 2026",
+      "category": "Award",
+      "description": "Our lab member Dan-A Kim received the Best Poster Presentation Award at the 2026 Academic Symposium of the College of Agriculture and Life Sciences, Chonnam National University, in recognition of her outstanding research presentation.",
+      "intro": "Our Lab Member Dan-A Kim Wins the Best Poster Presentation Award at the 2026 Academic Symposium of the College of Agriculture and Life Sciences",
+      "presenters": [
+        {
+          "name": "Dan-A Kim",
+          "topic": "EFFECT OF UNDERCARRIAGE CONFIGURATION ON THE MOBILITY OF DEEP-SEA TRACKED VEHICLES OVER HYDROTHERMAL VENT-FIELD TERRAIN"
+        }
+      ],
+      "images": [
+        "/uploads/KakaoTalk_20261106_165544072.png",
+        "/uploads/KakaoTalk_20261106_165000459_03.jpg"
+      ]
+    },
+    {
       "slug": "2026-ISMAB-Award_261022",
       "title": "ISMAB 2026 Best Presentation Award - Oral Session",
       "date": "22 October 2026",
       "category": "Award",
-      "description": "ddd",
-      "intro": "ddd",
-      "presenters": [],
+      "description": "Our lab member Joon-Seo Kim received the Best Presentation Award (Oral Session) at ISMAB 2026 in recognition of his outstanding research presentation.",
+      "intro": "Our Lab Member Joon-Seo Kim Wins the Best Presentation Award (Oral Session) at ISMAB 2026",
+      "presenters": [
+        {
+          "name": "Joon-Seo Kim",
+          "topic": "PHYSICS-GUIDED NEURAL NETWORK FOR CONE INDEX PREDICTION FROM SOIL PHYSICAL PROPERTIES"
+        }
+      ],
       "images": [
+        "/uploads/스크린샷 2026-11-06 164911.png",
         "/uploads/KakaoTalk_20261105_121909400_09.jpg"
       ]
     },
