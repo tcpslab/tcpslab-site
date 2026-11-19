@@ -10,7 +10,7 @@ const LAB_MEMBERS = [
   "Ji-Hwan Park",
   "Joon-Seo Kim",
   "Moo-Young Oh",
-  "Ju-Hyun Ahn",
+  "Ju-Hyeon Ahn",
   "Seung-Yeon Lee",
   "Dan-A Kim",
   "Se-Hee Park",
