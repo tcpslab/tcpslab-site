@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "slug": "2026-KSME_261111",
+      "title": "KSME 2026 Fall Conference",
+      "date": "November 11-14, 2026",
+      "category": "Conference",
+      "description": "Poster presentations on multivariate analysis of lunar rover mobility and discrete element modeling of rotary core drilling at the KSME conference held at ICC Jeju.",
+      "intro": "We went to the 2026 Korean Society of Mechanical Engineers (KSME) Annual Meeting held at ICC Jeju, Jeju!",
+      "presenters": [
+        {
+          "name": "Moo-Young Oh",
+          "topic": "수치해석을 이용한 달 탐사 로버의 주행성 다변수 분석"
+        },
+        {
+          "name": "Joon-Seo Kim",
+          "topic": "회전식 코어시추의 이산요소 모델링 및 가속해석에 관한 연구"
+        }
+      ],
+      "images": [
+        "/uploads/KSME_2026_01.jpg",
+        "/uploads/KSME_2026_02.jpg",
+        "/uploads/KSME_2026_03.jpg",
+        "/uploads/KSME_2026_04.jpg",
+        "/uploads/KSME_2026_05.jpg"
+      ]
+    },
+    {
       "slug": "Academic-Symposium-of-the-National-University-Development-Project-261028",
       "title": "2026 국립대학육성사업 학술심포지엄",
       "date": "October 28, 2026",
@@ -21,7 +46,7 @@
     {
       "slug": "2026-ISMAB-Award_261022",
       "title": "ISMAB 2026 Best Presentation Award - Oral Session",
-      "date": "22 October 2026",
+      "date": "October 22,  2026",
       "category": "Award",
       "description": "Our lab member Joon-Seo Kim received the Best Presentation Award (Oral Session) at ISMAB 2026 in recognition of his outstanding research presentation.",
       "intro": "Our Lab Member Joon-Seo Kim Wins the Best Presentation Award (Oral Session) at ISMAB 2026",
@@ -39,7 +64,7 @@
     {
       "slug": "2026-ISMAB_261020",
       "title": "ISMAB 2026",
-      "date": "20-24 October 2026",
+      "date": "October 20-24, 2026",
       "category": "Conference",
       "description": "Presentations on cone index prediction, lunar rover wheel design, Core Drilling DEM Modeling and Tracked Vehicle MBD Modeling at the International Symposium on Machinery and \nMechatronics for Agriculture and Biosystems Engineering (ISMAB 2026) held at BEXCO Busan.",
       "intro": "We went to the International Symposium on Machinery and Mechatronics for Agriculture and Biosystems Engineering (ISMAB 2026) held at BEXCO Busan!",
