@@ -9,20 +9,20 @@
       "intro": "We went to the 2026 Korean Society of Mechanical Engineers (KSME) Fall Conference held at ICC Jeju!",
       "presenters": [
         {
-          "name": "Moo-Young Oh",
-          "topic": "수치해석을 이용한 달 탐사 로버의 주행성 다변수 분석"
-        },
-        {
           "name": "Joon-Seo Kim",
           "topic": "회전식 코어시추의 이산요소 모델링 및 가속해석에 관한 연구"
+        },
+        {
+          "name": "Moo-Young Oh",
+          "topic": "수치해석을 이용한 달 탐사 로버의 주행성 다변수 분석"
         }
       ],
       "images": [
         "/uploads/KSME_2026_01.jpg",
-        "/uploads/KSME_2026_02.jpg",
-        "/uploads/KSME_2026_03.jpg",
         "/uploads/KSME_2026_04.jpg",
-        "/uploads/KSME_2026_05.jpg"
+        "/uploads/KSME_2026_05.jpg",
+        "/uploads/KSME_2026_02.jpg",
+        "/uploads/KSME_2026_03.jpg"
       ]
     },
     {
